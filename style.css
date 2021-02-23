@@ -4,16 +4,27 @@
 }
 h1
 {
-    color:Aqua
+    color:Aqua;
 }
 h2
-{   color:#8093F1
+{   color:#8093F1;
 }
 h3
 {
-    color:#72DDF7
+    color:#72DDF7;
 }
   
 p
-{   color:Fuchsia
+{   color:Fuchsia;
+}
+i
+{   color:Yellow;
+    font-size:140px;
+  
+}
+a
+{
+  color:White;
+  font-style:italic;
+  font-size:180px;
 }
