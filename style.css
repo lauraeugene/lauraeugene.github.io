@@ -64,6 +64,12 @@
 a:hover
 {
  opacity:0.4;
+ color:White;
+}
+a
+{
+    color:Lime;
+    text-decoration:none;
 }
 
 .title
