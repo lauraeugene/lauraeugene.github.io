@@ -26,7 +26,7 @@ img{
     margin: 0; 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(14, 10vh);
+    grid-template-rows: repeat(autofit, 10vh);
     grid-gap: 10px; 
   }
   img {

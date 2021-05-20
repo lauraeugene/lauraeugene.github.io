@@ -26,7 +26,7 @@ img{
     margin: 0; 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(12, 10vh);
+    grid-template-rows: repeat(autofit, 10vh);
     grid-gap: 10px; 
   }
   img {
@@ -46,7 +46,7 @@ img{
   .seccion_item-1b {
     grid-column-start: 1;
     grid-column-end: 3;
-    grid-row: 9 / span 4;
+    grid-row: 5 / span 4;
     align-self: flex-start;
   }
 

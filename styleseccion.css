@@ -26,7 +26,7 @@ img{
     margin: 0; 
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(12, 10vh);
+    grid-template-rows: repeat(autofit, 10vh);
     grid-gap: 10px; 
   }
   img {
@@ -48,17 +48,26 @@ img{
     grid-row: 5 / span 4;
   }
 
+  .seccion_item-1c {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 9 / 13;
+    align-self: flex-start;
+  }
+
 
   .seccion_item-2 {
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row: 1 / span 6;
+    grid-row: 1 / 8;
+    align-self:flex-start;
   }
 
   .seccion_item-2b {
     grid-column-start: 3;
     grid-column-end: 6;
-    grid-row: 7 / span 4;
+    grid-row: 8/ 12;
+    align-self: flex-start;
   }
 
  
