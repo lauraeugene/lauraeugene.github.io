@@ -78,6 +78,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 9;
+  align-self: flex-start;
 
   /** Alternative Syntax **/
   /* grid-column: 1 / span 4;  */
