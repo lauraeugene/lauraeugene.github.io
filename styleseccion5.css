@@ -13,15 +13,14 @@ html {
 }
 
 body{
-    background-color:tomato;
-   font-family: 'Dela Gothic One', cursive;
-    color:yellow;
+    background-color:darkkhaki;
+    font-family: 'Coustard', serif;
+    color:maroon;
 }
 img{
   max-width: 100%;
   max-height: auto;
 }
-
 .container {
     width: 100%;
     margin: 0; 
@@ -56,13 +55,13 @@ img{
 
   .seccion_item-2 {
     grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-end: 6;
     grid-row: 1 / span 6;
   }
 
   .seccion_item-2b {
     grid-column-start: 3;
-    grid-column-end: 7;
+    grid-column-end: 6;
     grid-row: 7 / span 5;
   }
 
